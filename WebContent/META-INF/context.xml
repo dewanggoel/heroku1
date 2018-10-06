@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/helios.cricket" docBase="helios.cricket"
+	reloadable="true">
+	<!-- if we are making any change in web.xml and it should be deployed without 
+		restarting the tomcat -->
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+	<Resource name="jdbc/test" auth="Container"
+		type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="100"
+		global="jdbc/test" username="postgres" password="root"
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost/test" />
+
+</Context>
