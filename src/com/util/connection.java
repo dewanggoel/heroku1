@@ -15,7 +15,7 @@ public class connection {
 						throw new Exception("Uh oh -- no context!");
 				}
 			 //we are doing JNDI lookup to access reference Connection pool	
-			 ds = (DataSource) cxt.lookup("java:/comp/env/jdbc/test");
+			 ds = (DataSource) cxt.lookup("java:/comp/env/jdbc/d7njqud78gk771");
 			if (ds == null) {
 				throw new Exception("Data source not found!");
 			}
