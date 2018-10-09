@@ -5,10 +5,10 @@
 		restarting the tomcat -->
 	<WatchedResource>WEB-INF/web.xml</WatchedResource>
 
-	<Resource name="jdbc/test" auth="Container"
+	<Resource name="jdbc/d7njqud78gk771" auth="Container"
 		type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="100"
-		global="jdbc/test" username="postgres" password="root"
+		global="jdbc/d7njqud78gk771" username="hxmbvkeigbhgtf" password="0732f811fc6e79f8d1f4b4f071c992b09ba4c0559bba46f59349a17f3cfb697b"
 		driverClassName="org.postgresql.Driver"
-		url="jdbc:postgresql://localhost/test" />
+		url="jdbc:postgresql://ec2-54-235-90-0.compute-1.amazonaws.com/d7njqud78gk771" />
 
 </Context>
